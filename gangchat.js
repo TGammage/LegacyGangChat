@@ -263,7 +263,7 @@ var gangChat = {
 			height			= $(this).outerHeight();
 
 			// Scroll To Bottom Button visibility toggle
-			if( (self.scroll.pos + height) < self.scroll.btm ) {
+			if( Math.ceil(self.scroll.pos + height) < self.scroll.btm ) {
 				$('#scrollBottom').fadeIn(500);
 			} else {
 				$('#scrollBottom').fadeOut(200);
