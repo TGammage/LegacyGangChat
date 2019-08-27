@@ -628,7 +628,7 @@ var gangChat = {
 			'#gangchatShowEmo{position:relative;top:3px;left:4px;width:14px;cursor:pointer;}',
 			'.chattext{display:block}',
 			'span#scrollBottom{display:none;padding:0 8px;position:absolute;bottom:110px;right:15px;float:right;background-color:var(--accent-color);border-radius:50px;color:#AAA;font-size:20pt;cursor:pointer;background:var(--accent-color);background:-moz-radial-gradient(circle, var(--accent-color) 0%, rgba(0,0,0,1) 80%);background:-webkit-radial-gradient(circle, var(--accent-color) 0%, rgba(0,0,0,1) 80%);background:radial-gradient(circle, var(--accent-color) 0%, rgba(0,0,0,1) 80%);}',
-			'span#scrollBottom::before{content:"⭳"}'
+			'span#scrollBottom::before{content:"&darr;"}'
 		]);
 
 		// Emoji Help
